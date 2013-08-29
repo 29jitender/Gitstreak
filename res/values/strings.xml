@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gitstreak</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_user_id">User_id</string>
+    <string name="title_activity_followers">Followers</string>
+    <string name="title_activity_streak_main">Streak_main</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:orientation="horizontal" 
+     android:background="@android:color/transparent" 
+     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_weight="0.2"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/people_first_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="1333"
+            android:gravity="center_vertical"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/follow_image"
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:id="@+id/people_first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/follow_image"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textColor="#fff"
+			android:textAllCaps="true"
+
+            android:layout_marginLeft="5dp"
+            android:text="Ankur anand"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textSize="22sp" />
+
+    </RelativeLayout>
+  
+</LinearLayout>
